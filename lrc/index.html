@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LRC歌词工具</title>
+</head>
+<body>
+    <div id="app">
+        <div class="form-item">
+            <div class="label">选择lrc文件: </div>
+            <div class="content">
+                <input type="file" id="fileInput">
+            </div>
+        </div>
+        <div id="statusText">
+
+        </div>
+        <div class="form-item" id="result">
+            <div class="label">保存为: </div>
+            <div class="content">
+                <input type="text" id="filename" value="lrc.srt">
+                <a download="lrc.srt" href="" id="downloadBtn">下载</a>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
